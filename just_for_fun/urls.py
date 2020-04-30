@@ -20,7 +20,7 @@ from users.views import UserViewSet
 
 router = routers.DefaultRouter()
 router.register(r'users', UserViewSet)
-# router.register(r'groups', views.GroupViewSet)
+#router.register(r'groups', GroupViewSet)
 
 #Wire up our API using an automatic URL routing.
 #Additionally, we include login URLs for the browsable API. 

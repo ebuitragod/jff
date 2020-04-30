@@ -1,7 +1,5 @@
 from django.shortcuts import render
-
-from rest_framework import viewsets
-
+from rest_framework import permissions, viewsets
 from .models import User
 from .serializers import UserSerializer
 
