@@ -38,7 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'users.apps.UsersConfig',
-    'magic_cards.apps.MagicCardsConfig'
+    'magic_cards.apps.MagicCardsConfig',
+    'rest_framework'
 ]
 
 MIDDLEWARE = [
